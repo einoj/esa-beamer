@@ -1,0 +1,117 @@
+\mode<presentation>
+
+\usecolortheme{default}
+\usecolortheme{default}
+\useinnertheme{default}
+\useoutertheme{default}
+\usepackage[ddmmyyyy]{datetime}
+\beamertemplatenavigationsymbolsempty
+
+% Colors
+\definecolor{blueesa}{HTML}{0098DB}
+\definecolor{silveresa}{HTML}{A7A9AC}
+\setbeamercolor{normal text}{fg=black, bg=white}
+\setbeamercolor{gray text}{fg=gray!90, bg=white}
+\setbeamercolor{frametitle}{fg=blueesa, bg=white}
+\setbeamercolor{section in toc}{fg=blueesa, bg=white}
+\setbeamercolor{title}{fg=blueesa, bg=white}
+\setbeamercolor{inverted normal text}{fg=white, bg=blueesa}
+\setbeamercolor{itemize item}{fg=black}
+\setbeamercolor{itemize subitem}{fg=blueesa}
+\setbeamercolor{itemize subsubitem}{fg=black}
+\setbeamercolor{enumerate item}{fg=blueesa}
+\setbeamercolor{enumerate subitem}{fg=black}
+\setbeamercolor{caption name}{fg=black}
+\setbeamercolor{block title}{fg=blueesa, bg=gray!30}
+\setbeamercolor{block body}{fg=blueesa, bg=gray!10}
+\setbeamercolor{block title alerted}{bg=gray!30}
+\setbeamercolor{block body alerted}{bg=gray!10}
+
+% Fonts
+\usefonttheme{structurebold}
+\setbeamerfont{title}{size=\Huge}
+
+% Title page
+\setbeamertemplate{title page}{
+    \vspace{-15.15ex}
+    \begin{beamercolorbox}[ht=36px,wd=\paperwidth,center]{inverted normal text}
+    \begin{columns}
+    \column{1.\textwidth}
+        %\insertshorttitle
+    \column{.1\textwidth}
+        \vspace{0px} % To lift logo from bottom
+        \includegraphics[scale=0.35]{logos/esa-logo-white.png}
+    \end{columns}
+    \end{beamercolorbox}
+  \bigskip
+  \usebeamerfont{title}\usebeamercolor[fg]{title}\inserttitle\par
+  \usebeamerfont{subtitle}\usebeamercolor[fg]{subtitle}\insertsubtitle\par
+  \bigskip
+  \usebeamerfont{shortauthor}\insertauthor\par
+  \usebeamerfont{institute}\insertinstitute\par
+  \usebeamerfont{date}\insertdate\par
+}
+
+% Frame title 
+\setbeamerfont{frametitle}{size=\large}
+\setbeamertemplate{frametitle}{
+    \vspace{-0.165ex}
+    \begin{beamercolorbox}[ht=30.6px,wd=\paperwidth]{inverted normal text}
+    \begin{columns}
+    \column{.8\textwidth}
+        \insertframetitle
+    \column{.0001\textwidth}
+        \includegraphics[scale=0.35]{logos/esa-logo-white.png}
+    \end{columns}
+    \end{beamercolorbox}
+}
+
+% Footline
+\setbeamertemplate{footline}{
+    \begin{beamercolorbox}[ht=20px, center]{gray text}
+    \begin{columns}
+    \column{.30\textwidth}
+    \insertshortauthor \text{\textbar}  \insertshortdate \text{\textbar} Slide \insertpagenumber \\
+    \color{black}
+    ESA UNCLASSIFIED - For Official Use
+    \vspace{5px} % To lift logo from bottom
+    \column{.30\textwidth}
+    \column{.15\textwidth}
+    \color{silveresa}
+    European Space Agency
+    \end{columns}
+    \end{beamercolorbox}
+}
+
+\newcommand{\cernSplashBlue}{
+    % CERN blue splash page slide with white logo
+    \bgroup
+    \setbeamertemplate{navigation symbols}{}
+    \setbeamercolor{background canvas}{bg=blueesa}
+    \frame[plain]{
+        \hfill
+        \vspace{-1.5cm}
+        \includegraphics[scale=1]{logos/esa-logo-white.png}
+        \hfill\hfill
+    }
+    \egroup
+}
+
+\newcommand{\cernSplashWhite}{
+    % ESA ending slide with blue logo and web page
+    \bgroup
+    \setbeamertemplate{navigation symbols}{}
+    \setbeamercolor{background canvas}{bg=white}
+    \frame[plain]{
+        \centering
+        \vspace{10px}
+        \begin{figure}
+            \includegraphics[scale=1]{./logos/esa-logo-blue.png} \\
+            {\Large \textbf{www.esa.int}}
+        \end{figure}
+    }
+    \egroup
+}
+
+\mode
+<all>
