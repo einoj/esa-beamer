@@ -4,16 +4,16 @@ Beamer theme for ESA presentations based on the ESA powerpoint theme and icot/ce
 [template.pdf](https://github.com/einoj/esa-beamer/blob/master/template.pdf)
 
 
-<a href="images/template-00.png"><img src="images/template-00.png" height="255" /></a>
-<a href="images/template-01.png"><img src="images/template-01.png" height="255" /></a>
-<a href="images/template-02.png"><img src="images/template-02.png" height="255" /></a>
-<a href="images/template-03.png"><img src="images/template-03.png" height="255" /></a>
-<a href="images/template-04.png"><img src="images/template-04.png" height="255" /></a>
-<a href="images/template-05.png"><img src="images/template-05.png" height="255" /></a>
-<a href="images/template-06.png"><img src="images/template-06.png" height="255" /></a>
-<a href="images/template-07.png"><img src="images/template-07.png" height="255" /></a>
-<a href="images/template-08.png"><img src="images/template-08.png" height="255" /></a>
-<a href="images/template-09.png"><img src="images/template-09.png" height="255" /></a>
+<a href="images/template-0.png"><img src="images/template-0.png" height="255" /></a>
+<a href="images/template-1.png"><img src="images/template-1.png" height="255" /></a>
+<a href="images/template-2.png"><img src="images/template-2.png" height="255" /></a>
+<a href="images/template-3.png"><img src="images/template-3.png" height="255" /></a>
+<a href="images/template-4.png"><img src="images/template-4.png" height="255" /></a>
+<a href="images/template-5.png"><img src="images/template-5.png" height="255" /></a>
+<a href="images/template-6.png"><img src="images/template-6.png" height="255" /></a>
+<a href="images/template-7.png"><img src="images/template-7.png" height="255" /></a>
+<a href="images/template-8.png"><img src="images/template-8.png" height="255" /></a>
+<a href="images/template-9.png"><img src="images/template-9.png" height="255" /></a>
 <a href="images/template-10.png"><img src="images/template-10.png" height="255" /></a>
 <a href="images/template-11.png"><img src="images/template-11.png" height="255" /></a>
 <a href="images/template-12.png"><img src="images/template-12.png" height="255" /></a>
