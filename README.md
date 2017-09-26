@@ -22,5 +22,5 @@ Beamer theme for ESA presentations based on the ESA powerpoint theme and icot/ce
 
 # ESA Logo
 
-ESA owns the copyright to the ESA logo, whic is available here.
-[ESA Logo](http://www.esa.int/esalogo/)
+ESA owns the copyright to the ESA logo, whic is available here:
+[ESA Logo.](http://www.esa.int/esalogo/)
